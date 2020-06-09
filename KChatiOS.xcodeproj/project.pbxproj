@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB232C4D2490321C007636B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C4C2490321C007636B0 /* AppDelegate.swift */; };
+		DB232C4F2490321C007636B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C4E2490321C007636B0 /* SceneDelegate.swift */; };
+		DB232C512490321C007636B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C502490321C007636B0 /* ViewController.swift */; };
+		DB232C542490321C007636B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB232C522490321C007636B0 /* Main.storyboard */; };
+		DB232C572490321C007636B0 /* KChatiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */; };
+		DB232C592490321D007636B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB232C582490321D007636B0 /* Assets.xcassets */; };
+		DB232C5C2490321D007636B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */; };
+		DB232C672490321D007636B0 /* KChatiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C662490321D007636B0 /* KChatiOSTests.swift */; };
+		DB232C722490321D007636B0 /* KChatiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C712490321D007636B0 /* KChatiOSUITests.swift */; };
+		DB232C822490370A007636B0 /* multicore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB232C812490370A007636B0 /* multicore.framework */; };
+		DB232C832490370A007636B0 /* multicore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB232C812490370A007636B0 /* multicore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB232C632490321D007636B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB232C412490321C007636B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB232C482490321C007636B0;
+			remoteInfo = KChatiOS;
+		};
+		DB232C6E2490321D007636B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB232C412490321C007636B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB232C482490321C007636B0;
+			remoteInfo = KChatiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB232C842490370A007636B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB232C832490370A007636B0 /* multicore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB232C492490321C007636B0 /* KChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB232C4C2490321C007636B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB232C4E2490321C007636B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB232C502490321C007636B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB232C532490321C007636B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KChatiOS.xcdatamodel; sourceTree = "<group>"; };
+		DB232C582490321D007636B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB232C5B2490321D007636B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB232C5D2490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB232C622490321D007636B0 /* KChatiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB232C662490321D007636B0 /* KChatiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSTests.swift; sourceTree = "<group>"; };
+		DB232C682490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB232C712490321D007636B0 /* KChatiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSUITests.swift; sourceTree = "<group>"; };
+		DB232C732490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB232C812490370A007636B0 /* multicore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = multicore.framework; path = ../KChatShared/multicore/build/bin/ios/multicoreDebugFramework/multicore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB232C462490321C007636B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB232C822490370A007636B0 /* multicore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C5F2490321D007636B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C6A2490321D007636B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB232C402490321C007636B0 = {
+			isa = PBXGroup;
+			children = (
+				DB232C4B2490321C007636B0 /* KChatiOS */,
+				DB232C652490321D007636B0 /* KChatiOSTests */,
+				DB232C702490321D007636B0 /* KChatiOSUITests */,
+				DB232C4A2490321C007636B0 /* Products */,
+				DB232C802490370A007636B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB232C4A2490321C007636B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB232C492490321C007636B0 /* KChatiOS.app */,
+				DB232C622490321D007636B0 /* KChatiOSTests.xctest */,
+				DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB232C4B2490321C007636B0 /* KChatiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB232C4C2490321C007636B0 /* AppDelegate.swift */,
+				DB232C4E2490321C007636B0 /* SceneDelegate.swift */,
+				DB232C502490321C007636B0 /* ViewController.swift */,
+				DB232C522490321C007636B0 /* Main.storyboard */,
+				DB232C582490321D007636B0 /* Assets.xcassets */,
+				DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */,
+				DB232C5D2490321D007636B0 /* Info.plist */,
+				DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */,
+			);
+			path = KChatiOS;
+			sourceTree = "<group>";
+		};
+		DB232C652490321D007636B0 /* KChatiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB232C662490321D007636B0 /* KChatiOSTests.swift */,
+				DB232C682490321D007636B0 /* Info.plist */,
+			);
+			path = KChatiOSTests;
+			sourceTree = "<group>";
+		};
+		DB232C702490321D007636B0 /* KChatiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB232C712490321D007636B0 /* KChatiOSUITests.swift */,
+				DB232C732490321D007636B0 /* Info.plist */,
+			);
+			path = KChatiOSUITests;
+			sourceTree = "<group>";
+		};
+		DB232C802490370A007636B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB232C812490370A007636B0 /* multicore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB232C482490321C007636B0 /* KChatiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB232C762490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOS" */;
+			buildPhases = (
+				DB232C7F24903402007636B0 /* ShellScript */,
+				DB232C452490321C007636B0 /* Sources */,
+				DB232C462490321C007636B0 /* Frameworks */,
+				DB232C472490321C007636B0 /* Resources */,
+				DB232C842490370A007636B0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KChatiOS;
+			productName = KChatiOS;
+			productReference = DB232C492490321C007636B0 /* KChatiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB232C612490321D007636B0 /* KChatiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB232C792490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSTests" */;
+			buildPhases = (
+				DB232C5E2490321D007636B0 /* Sources */,
+				DB232C5F2490321D007636B0 /* Frameworks */,
+				DB232C602490321D007636B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB232C642490321D007636B0 /* PBXTargetDependency */,
+			);
+			name = KChatiOSTests;
+			productName = KChatiOSTests;
+			productReference = DB232C622490321D007636B0 /* KChatiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB232C6C2490321D007636B0 /* KChatiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB232C7C2490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */;
+			buildPhases = (
+				DB232C692490321D007636B0 /* Sources */,
+				DB232C6A2490321D007636B0 /* Frameworks */,
+				DB232C6B2490321D007636B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB232C6F2490321D007636B0 /* PBXTargetDependency */,
+			);
+			name = KChatiOSUITests;
+			productName = KChatiOSUITests;
+			productReference = DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB232C412490321C007636B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sterling, Inc";
+				TargetAttributes = {
+					DB232C482490321C007636B0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DB232C612490321D007636B0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DB232C482490321C007636B0;
+					};
+					DB232C6C2490321D007636B0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DB232C482490321C007636B0;
+					};
+				};
+			};
+			buildConfigurationList = DB232C442490321C007636B0 /* Build configuration list for PBXProject "KChatiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB232C402490321C007636B0;
+			productRefGroup = DB232C4A2490321C007636B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB232C482490321C007636B0 /* KChatiOS */,
+				DB232C612490321D007636B0 /* KChatiOSTests */,
+				DB232C6C2490321D007636B0 /* KChatiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB232C472490321C007636B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB232C5C2490321D007636B0 /* LaunchScreen.storyboard in Resources */,
+				DB232C592490321D007636B0 /* Assets.xcassets in Resources */,
+				DB232C542490321C007636B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C602490321D007636B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C6B2490321D007636B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB232C7F24903402007636B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd ${SRCROOT}/../KChatShared/multicore && gradle :multicore:packForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB232C452490321C007636B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB232C512490321C007636B0 /* ViewController.swift in Sources */,
+				DB232C4D2490321C007636B0 /* AppDelegate.swift in Sources */,
+				DB232C4F2490321C007636B0 /* SceneDelegate.swift in Sources */,
+				DB232C572490321C007636B0 /* KChatiOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C5E2490321D007636B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB232C672490321D007636B0 /* KChatiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB232C692490321D007636B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB232C722490321D007636B0 /* KChatiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB232C642490321D007636B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB232C482490321C007636B0 /* KChatiOS */;
+			targetProxy = DB232C632490321D007636B0 /* PBXContainerItemProxy */;
+		};
+		DB232C6F2490321D007636B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB232C482490321C007636B0 /* KChatiOS */;
+			targetProxy = DB232C6E2490321D007636B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB232C522490321C007636B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB232C532490321C007636B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB232C5B2490321D007636B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB232C742490321D007636B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB232C752490321D007636B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB232C772490321D007636B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${SRCROOT}/../KChatShared/multicore/build/bin/ios/MultiCoreDebugFramework";
+				INFOPLIST_FILE = KChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB232C782490321D007636B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB232C7A2490321D007636B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChatiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KChatiOS.app/KChatiOS";
+			};
+			name = Debug;
+		};
+		DB232C7B2490321D007636B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChatiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KChatiOS.app/KChatiOS";
+			};
+			name = Release;
+		};
+		DB232C7D2490321D007636B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChatiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KChatiOS;
+			};
+			name = Debug;
+		};
+		DB232C7E2490321D007636B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KChatiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KChatiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB232C442490321C007636B0 /* Build configuration list for PBXProject "KChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB232C742490321D007636B0 /* Debug */,
+				DB232C752490321D007636B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB232C762490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB232C772490321D007636B0 /* Debug */,
+				DB232C782490321D007636B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB232C792490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB232C7A2490321D007636B0 /* Debug */,
+				DB232C7B2490321D007636B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB232C7C2490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB232C7D2490321D007636B0 /* Debug */,
+				DB232C7E2490321D007636B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */,
+			);
+			currentVersion = DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */;
+			path = KChatiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB232C412490321C007636B0 /* Project object */;
+}
