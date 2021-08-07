@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/SwiftCoroutine/SwiftCoroutine.framework

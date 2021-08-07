@@ -7,6 +7,7 @@ target 'KChatiOS' do
 
   # Pods for KChatiOS
   pod 'multicore', :path => '../KChatShared/multicore'
+    pod 'domain', :path => '../KChatShared/domain'
 
   target 'KChatiOSTests' do
     inherit! :search_paths

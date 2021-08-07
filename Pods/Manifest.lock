@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - domain (0.0.1):
+    - SwiftCoroutine (~> 2.1.8)
+  - multicore (0.0.1):
+    - AFNetworking (~> 4.0.0)
+  - SwiftCoroutine (2.1.8)
+
+DEPENDENCIES:
+  - domain (from `../KChatShared/domain`)
+  - multicore (from `../KChatShared/multicore`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SwiftCoroutine
+
+EXTERNAL SOURCES:
+  domain:
+    :path: "../KChatShared/domain"
+  multicore:
+    :path: "../KChatShared/multicore"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  domain: 5c98027639aeba50a293068d1f92fbe4e65355fd
+  multicore: 6c9da4d6bf14470b4d4b5eb0133050b4cf27ac82
+  SwiftCoroutine: 94a9d02aae382d4f0549a191d5ba5c01dfe752a5
+
+PODFILE CHECKSUM: 8a7017710c543a2c4a33681a10bf3ca052c501ab
+
+COCOAPODS: 1.10.0.rc.1

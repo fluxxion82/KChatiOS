@@ -1,0 +1,6 @@
+framework module Pods_KChatiOS_KChatiOSUITests {
+  umbrella header "Pods-KChatiOS-KChatiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

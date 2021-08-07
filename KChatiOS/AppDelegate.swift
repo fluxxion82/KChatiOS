@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  KChatiOS
 //
-//  Created by Sterling Albury on 6/9/20.
-//  Copyright © 2020 Sterling, Inc. All rights reserved.
+//  Created by Sterling Albury on 7/30/21.
+//  Copyright © 2021 Sterling, Inc. All rights reserved.
 //
 
 import UIKit

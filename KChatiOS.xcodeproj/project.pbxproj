@@ -3,48 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB232C4D2490321C007636B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C4C2490321C007636B0 /* AppDelegate.swift */; };
-		DB232C4F2490321C007636B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C4E2490321C007636B0 /* SceneDelegate.swift */; };
-		DB232C512490321C007636B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C502490321C007636B0 /* ViewController.swift */; };
-		DB232C542490321C007636B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB232C522490321C007636B0 /* Main.storyboard */; };
-		DB232C572490321C007636B0 /* KChatiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */; };
-		DB232C592490321D007636B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB232C582490321D007636B0 /* Assets.xcassets */; };
-		DB232C5C2490321D007636B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */; };
-		DB232C672490321D007636B0 /* KChatiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C662490321D007636B0 /* KChatiOSTests.swift */; };
-		DB232C722490321D007636B0 /* KChatiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB232C712490321D007636B0 /* KChatiOSUITests.swift */; };
-		DB232C822490370A007636B0 /* multicore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB232C812490370A007636B0 /* multicore.framework */; };
-		DB232C832490370A007636B0 /* multicore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB232C812490370A007636B0 /* multicore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2ACFD4B852590ACBF31D7E15 /* Pods_KChatiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A99E6ECF3190B0757E66F6 /* Pods_KChatiOS.framework */; };
+		DB2D49BE26BBBFEA00913A5E /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D49BD26BBBFEA00913A5E /* SettingsPresenter.swift */; };
+		DB2D49C126BBC05800913A5E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D49C026BBC05800913A5E /* Presenter.swift */; };
+		DB2D49C726BBC2AE00913A5E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D49C626BBC2AE00913A5E /* BaseViewController.swift */; };
+		DB90004E26B5030C003923DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90004D26B5030C003923DA /* AppDelegate.swift */; };
+		DB90005026B5030C003923DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90004F26B5030C003923DA /* SceneDelegate.swift */; };
+		DB90005226B5030C003923DA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90005126B5030C003923DA /* SettingsViewController.swift */; };
+		DB90005526B5030C003923DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB90005326B5030C003923DA /* Main.storyboard */; };
+		DB90005826B5030C003923DA /* KChatiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB90005626B5030C003923DA /* KChatiOS.xcdatamodeld */; };
+		DB90005A26B5030E003923DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB90005926B5030E003923DA /* Assets.xcassets */; };
+		DB90005D26B5030E003923DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB90005B26B5030E003923DA /* LaunchScreen.storyboard */; };
+		DB90006826B5030E003923DA /* KChatiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90006726B5030E003923DA /* KChatiOSTests.swift */; };
+		DB90007326B5030E003923DA /* KChatiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90007226B5030E003923DA /* KChatiOSUITests.swift */; };
+		DB90008126B509DB003923DA /* multicore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90008026B509DB003923DA /* multicore.framework */; };
+		DB90008226B509DB003923DA /* multicore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB90008026B509DB003923DA /* multicore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F634681E49B93296880A0C43 /* Pods_KChatiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4705FEE7527186B8BFB79F /* Pods_KChatiOSTests.framework */; };
+		FF8F8026EE7551072E992AE9 /* Pods_KChatiOS_KChatiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA710FC4151E4D1C041CE817 /* Pods_KChatiOS_KChatiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB232C632490321D007636B0 /* PBXContainerItemProxy */ = {
+		DB90006426B5030E003923DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB232C412490321C007636B0 /* Project object */;
+			containerPortal = DB90004226B5030C003923DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB232C482490321C007636B0;
+			remoteGlobalIDString = DB90004926B5030C003923DA;
 			remoteInfo = KChatiOS;
 		};
-		DB232C6E2490321D007636B0 /* PBXContainerItemProxy */ = {
+		DB90006F26B5030E003923DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB232C412490321C007636B0 /* Project object */;
+			containerPortal = DB90004226B5030C003923DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB232C482490321C007636B0;
+			remoteGlobalIDString = DB90004926B5030C003923DA;
 			remoteInfo = KChatiOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DB232C842490370A007636B0 /* Embed Frameworks */ = {
+		DB90008326B509DB003923DA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DB232C832490370A007636B0 /* multicore.framework in Embed Frameworks */,
+				DB90008226B509DB003923DA /* multicore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,124 +58,192 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB232C492490321C007636B0 /* KChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB232C4C2490321C007636B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB232C4E2490321C007636B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB232C502490321C007636B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB232C532490321C007636B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KChatiOS.xcdatamodel; sourceTree = "<group>"; };
-		DB232C582490321D007636B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB232C5B2490321D007636B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB232C5D2490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB232C622490321D007636B0 /* KChatiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB232C662490321D007636B0 /* KChatiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSTests.swift; sourceTree = "<group>"; };
-		DB232C682490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB232C712490321D007636B0 /* KChatiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSUITests.swift; sourceTree = "<group>"; };
-		DB232C732490321D007636B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB232C812490370A007636B0 /* multicore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = multicore.framework; path = ../KChatShared/multicore/build/bin/ios/multicoreDebugFramework/multicore.framework; sourceTree = "<group>"; };
+		10C7AD5CFBA4A16513E29207 /* Pods-KChatiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOS.debug.xcconfig"; path = "Target Support Files/Pods-KChatiOS/Pods-KChatiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4705FEE7527186B8BFB79F /* Pods_KChatiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KChatiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FD446F4A49FA698355DB9C /* Pods-KChatiOS-KChatiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOS-KChatiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2857D505ED5C0F403CDB8EB /* Pods-KChatiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-KChatiOSTests/Pods-KChatiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F0873F77056466FEDD4BC8 /* Pods-KChatiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOS.release.xcconfig"; path = "Target Support Files/Pods-KChatiOS/Pods-KChatiOS.release.xcconfig"; sourceTree = "<group>"; };
+		B7A99E6ECF3190B0757E66F6 /* Pods_KChatiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KChatiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA710FC4151E4D1C041CE817 /* Pods_KChatiOS_KChatiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KChatiOS_KChatiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF3587E15B3C79BEBDFEB19 /* Pods-KChatiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOSTests.release.xcconfig"; path = "Target Support Files/Pods-KChatiOSTests/Pods-KChatiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD8863B024627CD5FCF0E6C2 /* Pods-KChatiOS-KChatiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KChatiOS-KChatiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB2D49BD26BBBFEA00913A5E /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		DB2D49C026BBC05800913A5E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		DB2D49C626BBC2AE00913A5E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DB90004A26B5030C003923DA /* KChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB90004D26B5030C003923DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB90004F26B5030C003923DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB90005126B5030C003923DA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DB90005426B5030C003923DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB90005726B5030C003923DA /* KChatiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KChatiOS.xcdatamodel; sourceTree = "<group>"; };
+		DB90005926B5030E003923DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB90005C26B5030E003923DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB90005E26B5030E003923DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB90006326B5030E003923DA /* KChatiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB90006726B5030E003923DA /* KChatiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSTests.swift; sourceTree = "<group>"; };
+		DB90006926B5030E003923DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB90006E26B5030E003923DA /* KChatiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KChatiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB90007226B5030E003923DA /* KChatiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSUITests.swift; sourceTree = "<group>"; };
+		DB90007426B5030E003923DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB90008026B509DB003923DA /* multicore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = multicore.framework; path = ../KChatShared/multicore/build/cocoapods/framework/multicore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB232C462490321C007636B0 /* Frameworks */ = {
+		DB90004726B5030C003923DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB232C822490370A007636B0 /* multicore.framework in Frameworks */,
+				DB90008126B509DB003923DA /* multicore.framework in Frameworks */,
+				2ACFD4B852590ACBF31D7E15 /* Pods_KChatiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C5F2490321D007636B0 /* Frameworks */ = {
+		DB90006026B5030E003923DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F634681E49B93296880A0C43 /* Pods_KChatiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C6A2490321D007636B0 /* Frameworks */ = {
+		DB90006B26B5030E003923DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8F8026EE7551072E992AE9 /* Pods_KChatiOS_KChatiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB232C402490321C007636B0 = {
+		3579119E422FF63D0DE2156C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DB232C4B2490321C007636B0 /* KChatiOS */,
-				DB232C652490321D007636B0 /* KChatiOSTests */,
-				DB232C702490321D007636B0 /* KChatiOSUITests */,
-				DB232C4A2490321C007636B0 /* Products */,
-				DB232C802490370A007636B0 /* Frameworks */,
+				10C7AD5CFBA4A16513E29207 /* Pods-KChatiOS.debug.xcconfig */,
+				B0F0873F77056466FEDD4BC8 /* Pods-KChatiOS.release.xcconfig */,
+				96FD446F4A49FA698355DB9C /* Pods-KChatiOS-KChatiOSUITests.debug.xcconfig */,
+				BD8863B024627CD5FCF0E6C2 /* Pods-KChatiOS-KChatiOSUITests.release.xcconfig */,
+				A2857D505ED5C0F403CDB8EB /* Pods-KChatiOSTests.debug.xcconfig */,
+				BCF3587E15B3C79BEBDFEB19 /* Pods-KChatiOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5111AC6D68A7C5F390443FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB90008026B509DB003923DA /* multicore.framework */,
+				B7A99E6ECF3190B0757E66F6 /* Pods_KChatiOS.framework */,
+				BA710FC4151E4D1C041CE817 /* Pods_KChatiOS_KChatiOSUITests.framework */,
+				8D4705FEE7527186B8BFB79F /* Pods_KChatiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2D49BF26BBBFF700913A5E /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				DB90005126B5030C003923DA /* SettingsViewController.swift */,
+				DB2D49BD26BBBFEA00913A5E /* SettingsPresenter.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		DB2D49C226BBC06100913A5E /* base */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D49C026BBC05800913A5E /* Presenter.swift */,
+				DB2D49C626BBC2AE00913A5E /* BaseViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		DB2D49C426BBC09000913A5E /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D49C526BBC0F800913A5E /* chat */,
+				DB2D49C226BBC06100913A5E /* base */,
+				DB2D49BF26BBBFF700913A5E /* settings */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		DB2D49C526BBC0F800913A5E /* chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		DB90004126B5030C003923DA = {
+			isa = PBXGroup;
+			children = (
+				DB90004C26B5030C003923DA /* KChatiOS */,
+				DB90006626B5030E003923DA /* KChatiOSTests */,
+				DB90007126B5030E003923DA /* KChatiOSUITests */,
+				DB90004B26B5030C003923DA /* Products */,
+				3579119E422FF63D0DE2156C /* Pods */,
+				C5111AC6D68A7C5F390443FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DB232C4A2490321C007636B0 /* Products */ = {
+		DB90004B26B5030C003923DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB232C492490321C007636B0 /* KChatiOS.app */,
-				DB232C622490321D007636B0 /* KChatiOSTests.xctest */,
-				DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */,
+				DB90004A26B5030C003923DA /* KChatiOS.app */,
+				DB90006326B5030E003923DA /* KChatiOSTests.xctest */,
+				DB90006E26B5030E003923DA /* KChatiOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB232C4B2490321C007636B0 /* KChatiOS */ = {
+		DB90004C26B5030C003923DA /* KChatiOS */ = {
 			isa = PBXGroup;
 			children = (
-				DB232C4C2490321C007636B0 /* AppDelegate.swift */,
-				DB232C4E2490321C007636B0 /* SceneDelegate.swift */,
-				DB232C502490321C007636B0 /* ViewController.swift */,
-				DB232C522490321C007636B0 /* Main.storyboard */,
-				DB232C582490321D007636B0 /* Assets.xcassets */,
-				DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */,
-				DB232C5D2490321D007636B0 /* Info.plist */,
-				DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */,
+				DB2D49C426BBC09000913A5E /* ui */,
+				DB90004D26B5030C003923DA /* AppDelegate.swift */,
+				DB90004F26B5030C003923DA /* SceneDelegate.swift */,
+				DB90005326B5030C003923DA /* Main.storyboard */,
+				DB90005926B5030E003923DA /* Assets.xcassets */,
+				DB90005B26B5030E003923DA /* LaunchScreen.storyboard */,
+				DB90005E26B5030E003923DA /* Info.plist */,
+				DB90005626B5030C003923DA /* KChatiOS.xcdatamodeld */,
 			);
 			path = KChatiOS;
 			sourceTree = "<group>";
 		};
-		DB232C652490321D007636B0 /* KChatiOSTests */ = {
+		DB90006626B5030E003923DA /* KChatiOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB232C662490321D007636B0 /* KChatiOSTests.swift */,
-				DB232C682490321D007636B0 /* Info.plist */,
+				DB90006726B5030E003923DA /* KChatiOSTests.swift */,
+				DB90006926B5030E003923DA /* Info.plist */,
 			);
 			path = KChatiOSTests;
 			sourceTree = "<group>";
 		};
-		DB232C702490321D007636B0 /* KChatiOSUITests */ = {
+		DB90007126B5030E003923DA /* KChatiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DB232C712490321D007636B0 /* KChatiOSUITests.swift */,
-				DB232C732490321D007636B0 /* Info.plist */,
+				DB90007226B5030E003923DA /* KChatiOSUITests.swift */,
+				DB90007426B5030E003923DA /* Info.plist */,
 			);
 			path = KChatiOSUITests;
-			sourceTree = "<group>";
-		};
-		DB232C802490370A007636B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DB232C812490370A007636B0 /* multicore.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB232C482490321C007636B0 /* KChatiOS */ = {
+		DB90004926B5030C003923DA /* KChatiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB232C762490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOS" */;
+			buildConfigurationList = DB90007726B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOS" */;
 			buildPhases = (
-				DB232C7F24903402007636B0 /* ShellScript */,
-				DB232C452490321C007636B0 /* Sources */,
-				DB232C462490321C007636B0 /* Frameworks */,
-				DB232C472490321C007636B0 /* Resources */,
-				DB232C842490370A007636B0 /* Embed Frameworks */,
+				9BFCE428F376F49B78B543D9 /* [CP] Check Pods Manifest.lock */,
+				DB90004626B5030C003923DA /* Sources */,
+				DB90004726B5030C003923DA /* Frameworks */,
+				DB90004826B5030C003923DA /* Resources */,
+				DB90008326B509DB003923DA /* Embed Frameworks */,
+				EF023FDC1321D2CEB779B184 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,69 +251,72 @@
 			);
 			name = KChatiOS;
 			productName = KChatiOS;
-			productReference = DB232C492490321C007636B0 /* KChatiOS.app */;
+			productReference = DB90004A26B5030C003923DA /* KChatiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB232C612490321D007636B0 /* KChatiOSTests */ = {
+		DB90006226B5030E003923DA /* KChatiOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB232C792490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSTests" */;
+			buildConfigurationList = DB90007A26B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOSTests" */;
 			buildPhases = (
-				DB232C5E2490321D007636B0 /* Sources */,
-				DB232C5F2490321D007636B0 /* Frameworks */,
-				DB232C602490321D007636B0 /* Resources */,
+				230F72BF0C2D4B1838D8B92F /* [CP] Check Pods Manifest.lock */,
+				DB90005F26B5030E003923DA /* Sources */,
+				DB90006026B5030E003923DA /* Frameworks */,
+				DB90006126B5030E003923DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB232C642490321D007636B0 /* PBXTargetDependency */,
+				DB90006526B5030E003923DA /* PBXTargetDependency */,
 			);
 			name = KChatiOSTests;
 			productName = KChatiOSTests;
-			productReference = DB232C622490321D007636B0 /* KChatiOSTests.xctest */;
+			productReference = DB90006326B5030E003923DA /* KChatiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB232C6C2490321D007636B0 /* KChatiOSUITests */ = {
+		DB90006D26B5030E003923DA /* KChatiOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB232C7C2490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */;
+			buildConfigurationList = DB90007D26B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */;
 			buildPhases = (
-				DB232C692490321D007636B0 /* Sources */,
-				DB232C6A2490321D007636B0 /* Frameworks */,
-				DB232C6B2490321D007636B0 /* Resources */,
+				DA2A316DF50F5E56186A4058 /* [CP] Check Pods Manifest.lock */,
+				DB90006A26B5030E003923DA /* Sources */,
+				DB90006B26B5030E003923DA /* Frameworks */,
+				DB90006C26B5030E003923DA /* Resources */,
+				414FE66CFA3C29C015EB8F47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB232C6F2490321D007636B0 /* PBXTargetDependency */,
+				DB90007026B5030E003923DA /* PBXTargetDependency */,
 			);
 			name = KChatiOSUITests;
 			productName = KChatiOSUITests;
-			productReference = DB232C6D2490321D007636B0 /* KChatiOSUITests.xctest */;
+			productReference = DB90006E26B5030E003923DA /* KChatiOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB232C412490321C007636B0 /* Project object */ = {
+		DB90004226B5030C003923DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Sterling, Inc";
 				TargetAttributes = {
-					DB232C482490321C007636B0 = {
-						CreatedOnToolsVersion = 11.3.1;
+					DB90004926B5030C003923DA = {
+						CreatedOnToolsVersion = 11.5;
 					};
-					DB232C612490321D007636B0 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = DB232C482490321C007636B0;
+					DB90006226B5030E003923DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DB90004926B5030C003923DA;
 					};
-					DB232C6C2490321D007636B0 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = DB232C482490321C007636B0;
+					DB90006D26B5030E003923DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DB90004926B5030C003923DA;
 					};
 				};
 			};
-			buildConfigurationList = DB232C442490321C007636B0 /* Build configuration list for PBXProject "KChatiOS" */;
+			buildConfigurationList = DB90004526B5030C003923DA /* Build configuration list for PBXProject "KChatiOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,37 +324,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DB232C402490321C007636B0;
-			productRefGroup = DB232C4A2490321C007636B0 /* Products */;
+			mainGroup = DB90004126B5030C003923DA;
+			productRefGroup = DB90004B26B5030C003923DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB232C482490321C007636B0 /* KChatiOS */,
-				DB232C612490321D007636B0 /* KChatiOSTests */,
-				DB232C6C2490321D007636B0 /* KChatiOSUITests */,
+				DB90004926B5030C003923DA /* KChatiOS */,
+				DB90006226B5030E003923DA /* KChatiOSTests */,
+				DB90006D26B5030E003923DA /* KChatiOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB232C472490321C007636B0 /* Resources */ = {
+		DB90004826B5030C003923DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB232C5C2490321D007636B0 /* LaunchScreen.storyboard in Resources */,
-				DB232C592490321D007636B0 /* Assets.xcassets in Resources */,
-				DB232C542490321C007636B0 /* Main.storyboard in Resources */,
+				DB90005D26B5030E003923DA /* LaunchScreen.storyboard in Resources */,
+				DB90005A26B5030E003923DA /* Assets.xcassets in Resources */,
+				DB90005526B5030C003923DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C602490321D007636B0 /* Resources */ = {
+		DB90006126B5030E003923DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C6B2490321D007636B0 /* Resources */ = {
+		DB90006C26B5030E003923DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,7 +364,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DB232C7F24903402007636B0 /* ShellScript */ = {
+		230F72BF0C2D4B1838D8B92F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,73 +372,159 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KChatiOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd ${SRCROOT}/../KChatShared/multicore && gradle :multicore:packForXcode\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		414FE66CFA3C29C015EB8F47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KChatiOS-KChatiOSUITests/Pods-KChatiOS-KChatiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFCE428F376F49B78B543D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KChatiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2A316DF50F5E56186A4058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KChatiOS-KChatiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF023FDC1321D2CEB779B184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KChatiOS/Pods-KChatiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KChatiOS/Pods-KChatiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KChatiOS/Pods-KChatiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB232C452490321C007636B0 /* Sources */ = {
+		DB90004626B5030C003923DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB232C512490321C007636B0 /* ViewController.swift in Sources */,
-				DB232C4D2490321C007636B0 /* AppDelegate.swift in Sources */,
-				DB232C4F2490321C007636B0 /* SceneDelegate.swift in Sources */,
-				DB232C572490321C007636B0 /* KChatiOS.xcdatamodeld in Sources */,
+				DB90005226B5030C003923DA /* SettingsViewController.swift in Sources */,
+				DB2D49C126BBC05800913A5E /* Presenter.swift in Sources */,
+				DB90004E26B5030C003923DA /* AppDelegate.swift in Sources */,
+				DB90005026B5030C003923DA /* SceneDelegate.swift in Sources */,
+				DB90005826B5030C003923DA /* KChatiOS.xcdatamodeld in Sources */,
+				DB2D49C726BBC2AE00913A5E /* BaseViewController.swift in Sources */,
+				DB2D49BE26BBBFEA00913A5E /* SettingsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C5E2490321D007636B0 /* Sources */ = {
+		DB90005F26B5030E003923DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB232C672490321D007636B0 /* KChatiOSTests.swift in Sources */,
+				DB90006826B5030E003923DA /* KChatiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB232C692490321D007636B0 /* Sources */ = {
+		DB90006A26B5030E003923DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB232C722490321D007636B0 /* KChatiOSUITests.swift in Sources */,
+				DB90007326B5030E003923DA /* KChatiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DB232C642490321D007636B0 /* PBXTargetDependency */ = {
+		DB90006526B5030E003923DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB232C482490321C007636B0 /* KChatiOS */;
-			targetProxy = DB232C632490321D007636B0 /* PBXContainerItemProxy */;
+			target = DB90004926B5030C003923DA /* KChatiOS */;
+			targetProxy = DB90006426B5030E003923DA /* PBXContainerItemProxy */;
 		};
-		DB232C6F2490321D007636B0 /* PBXTargetDependency */ = {
+		DB90007026B5030E003923DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB232C482490321C007636B0 /* KChatiOS */;
-			targetProxy = DB232C6E2490321D007636B0 /* PBXContainerItemProxy */;
+			target = DB90004926B5030C003923DA /* KChatiOS */;
+			targetProxy = DB90006F26B5030E003923DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB232C522490321C007636B0 /* Main.storyboard */ = {
+		DB90005326B5030C003923DA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB232C532490321C007636B0 /* Base */,
+				DB90005426B5030C003923DA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DB232C5A2490321D007636B0 /* LaunchScreen.storyboard */ = {
+		DB90005B26B5030E003923DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB232C5B2490321D007636B0 /* Base */,
+				DB90005C26B5030E003923DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -369,7 +532,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB232C742490321D007636B0 /* Debug */ = {
+		DB90007526B5030E003923DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -419,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +592,7 @@
 			};
 			name = Debug;
 		};
-		DB232C752490321D007636B0 /* Release */ = {
+		DB90007626B5030E003923DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -473,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -483,16 +646,29 @@
 			};
 			name = Release;
 		};
-		DB232C772490321D007636B0 /* Debug */ = {
+		DB90007826B5030E003923DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C7AD5CFBA4A16513E29207 /* Pods-KChatiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "${SRCROOT}/../KChatShared/multicore/build/bin/ios/MultiCoreDebugFramework";
 				INFOPLIST_FILE = KChatiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"SwiftCoroutine\"",
+					"-framework",
+					"\"domain\"",
+					"-framework",
+					"\"multicore\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,8 +677,9 @@
 			};
 			name = Debug;
 		};
-		DB232C782490321D007636B0 /* Release */ = {
+		DB90007926B5030E003923DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F0873F77056466FEDD4BC8 /* Pods-KChatiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +688,19 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"SwiftCoroutine\"",
+					"-framework",
+					"\"domain\"",
+					"-framework",
+					"\"multicore\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ai.sterling.KChatiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -518,14 +708,15 @@
 			};
 			name = Release;
 		};
-		DB232C7A2490321D007636B0 /* Debug */ = {
+		DB90007B26B5030E003923DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2857D505ED5C0F403CDB8EB /* Pods-KChatiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KChatiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,14 +730,15 @@
 			};
 			name = Debug;
 		};
-		DB232C7B2490321D007636B0 /* Release */ = {
+		DB90007C26B5030E003923DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF3587E15B3C79BEBDFEB19 /* Pods-KChatiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KChatiOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,8 +752,9 @@
 			};
 			name = Release;
 		};
-		DB232C7D2490321D007636B0 /* Debug */ = {
+		DB90007E26B5030E003923DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FD446F4A49FA698355DB9C /* Pods-KChatiOS-KChatiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,8 +772,9 @@
 			};
 			name = Debug;
 		};
-		DB232C7E2490321D007636B0 /* Release */ = {
+		DB90007F26B5030E003923DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8863B024627CD5FCF0E6C2 /* Pods-KChatiOS-KChatiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,38 +795,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB232C442490321C007636B0 /* Build configuration list for PBXProject "KChatiOS" */ = {
+		DB90004526B5030C003923DA /* Build configuration list for PBXProject "KChatiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB232C742490321D007636B0 /* Debug */,
-				DB232C752490321D007636B0 /* Release */,
+				DB90007526B5030E003923DA /* Debug */,
+				DB90007626B5030E003923DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB232C762490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOS" */ = {
+		DB90007726B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB232C772490321D007636B0 /* Debug */,
-				DB232C782490321D007636B0 /* Release */,
+				DB90007826B5030E003923DA /* Debug */,
+				DB90007926B5030E003923DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB232C792490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSTests" */ = {
+		DB90007A26B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB232C7A2490321D007636B0 /* Debug */,
-				DB232C7B2490321D007636B0 /* Release */,
+				DB90007B26B5030E003923DA /* Debug */,
+				DB90007C26B5030E003923DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB232C7C2490321D007636B0 /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */ = {
+		DB90007D26B5030E003923DA /* Build configuration list for PBXNativeTarget "KChatiOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB232C7D2490321D007636B0 /* Debug */,
-				DB232C7E2490321D007636B0 /* Release */,
+				DB90007E26B5030E003923DA /* Debug */,
+				DB90007F26B5030E003923DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -640,17 +834,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DB232C552490321C007636B0 /* KChatiOS.xcdatamodeld */ = {
+		DB90005626B5030C003923DA /* KChatiOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */,
+				DB90005726B5030C003923DA /* KChatiOS.xcdatamodel */,
 			);
-			currentVersion = DB232C562490321C007636B0 /* KChatiOS.xcdatamodel */;
+			currentVersion = DB90005726B5030C003923DA /* KChatiOS.xcdatamodel */;
 			path = KChatiOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = DB232C412490321C007636B0 /* Project object */;
+	rootObject = DB90004226B5030C003923DA /* Project object */;
 }
