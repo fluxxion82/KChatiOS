@@ -22,6 +22,9 @@
 		DB90007326B5030E003923DA /* KChatiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB90007226B5030E003923DA /* KChatiOSUITests.swift */; };
 		DB90008126B509DB003923DA /* multicore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB90008026B509DB003923DA /* multicore.framework */; };
 		DB90008226B509DB003923DA /* multicore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB90008026B509DB003923DA /* multicore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBDFDDF626D6EDC300E0D9E9 /* KChatComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDF526D6EDC300E0D9E9 /* KChatComponent.swift */; };
+		DBDFDDFA26D6F53C00E0D9E9 /* RemoteUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDF926D6F53C00E0D9E9 /* RemoteUserRepository.swift */; };
+		DBDFDDFC26D6F58E00E0D9E9 /* LocalUserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDFB26D6F58E00E0D9E9 /* LocalUserPreferences.swift */; };
 		F634681E49B93296880A0C43 /* Pods_KChatiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4705FEE7527186B8BFB79F /* Pods_KChatiOSTests.framework */; };
 		FF8F8026EE7551072E992AE9 /* Pods_KChatiOS_KChatiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA710FC4151E4D1C041CE817 /* Pods_KChatiOS_KChatiOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -86,6 +89,9 @@
 		DB90007226B5030E003923DA /* KChatiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatiOSUITests.swift; sourceTree = "<group>"; };
 		DB90007426B5030E003923DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB90008026B509DB003923DA /* multicore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = multicore.framework; path = ../KChatShared/multicore/build/cocoapods/framework/multicore.framework; sourceTree = "<group>"; };
+		DBDFDDF526D6EDC300E0D9E9 /* KChatComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatComponent.swift; sourceTree = "<group>"; };
+		DBDFDDF926D6F53C00E0D9E9 /* RemoteUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserRepository.swift; sourceTree = "<group>"; };
+		DBDFDDFB26D6F58E00E0D9E9 /* LocalUserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,9 @@
 		DB90004C26B5030C003923DA /* KChatiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DBDFDDF826D6F52200E0D9E9 /* platform */,
+				DBDFDDF726D6F51600E0D9E9 /* remote */,
+				DBDFDDF426D6ED9A00E0D9E9 /* di */,
 				DB2D49C426BBC09000913A5E /* ui */,
 				DB90004D26B5030C003923DA /* AppDelegate.swift */,
 				DB90004F26B5030C003923DA /* SceneDelegate.swift */,
@@ -229,6 +238,30 @@
 				DB90007426B5030E003923DA /* Info.plist */,
 			);
 			path = KChatiOSUITests;
+			sourceTree = "<group>";
+		};
+		DBDFDDF426D6ED9A00E0D9E9 /* di */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFDDF526D6EDC300E0D9E9 /* KChatComponent.swift */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		DBDFDDF726D6F51600E0D9E9 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFDDF926D6F53C00E0D9E9 /* RemoteUserRepository.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		DBDFDDF826D6F52200E0D9E9 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				DBDFDDFB26D6F58E00E0D9E9 /* LocalUserPreferences.swift */,
+			);
+			path = platform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,12 +505,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB90005226B5030C003923DA /* SettingsViewController.swift in Sources */,
+				DBDFDDFC26D6F58E00E0D9E9 /* LocalUserPreferences.swift in Sources */,
 				DB2D49C126BBC05800913A5E /* Presenter.swift in Sources */,
 				DB90004E26B5030C003923DA /* AppDelegate.swift in Sources */,
 				DB90005026B5030C003923DA /* SceneDelegate.swift in Sources */,
 				DB90005826B5030C003923DA /* KChatiOS.xcdatamodeld in Sources */,
+				DBDFDDF626D6EDC300E0D9E9 /* KChatComponent.swift in Sources */,
 				DB2D49C726BBC2AE00913A5E /* BaseViewController.swift in Sources */,
 				DB2D49BE26BBBFEA00913A5E /* SettingsPresenter.swift in Sources */,
+				DBDFDDFA26D6F53C00E0D9E9 /* RemoteUserRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,6 +49,7 @@ class BaseViewController: UIViewController, ViewInterface {
             presenter.configureView()
             state = .configured
         }
+        print("presenter: \(String(describing: presenter))")
     }
 
     private var state = ViewState.loading

@@ -61,11 +61,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJX-Wj-7qN">
+                                <rect key="frame" x="87" y="493" width="240" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go!"/>
+                                <connections>
+                                    <action selector="onClick:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEY-NJ-Lem"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="enterButton" destination="lJX-Wj-7qN" id="owo-fT-Snm"/>
                         <outlet property="serverIpInput" destination="fId-Kp-C6q" id="Iiq-KG-n19"/>
                         <outlet property="serverPortInput" destination="J8v-t7-6ZW" id="vSm-1W-mBw"/>
                         <outlet property="userNameInput" destination="cpF-aA-g6g" id="0ZA-Re-or0"/>
