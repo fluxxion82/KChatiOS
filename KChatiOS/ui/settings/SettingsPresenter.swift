@@ -11,7 +11,6 @@ import UIKit
 import domain
 
 protocol SettingsPresenting: Presenter {
-    func observeServerIp() -> String
     func onGoClick(uName: String?, address: String?, port: String?) -> Bool
 }
 
@@ -20,14 +19,24 @@ final class SettingsPresenter: SettingsPresenting {
     var updateServerInfo: UpdateServerInfo
     var loginUser: LoginUser
     
-    let userName: String
+    let serverInfoCollector: ServerInfoCollector = ServerInfoCollector()
     
-    let serverAddress: String
-    
-    let serverPort: String
-    
-    func observeServerIp() -> String {
-        serverAddress
+    class ServerInfoCollector: NSObject, Kotlinx_coroutines_coreFlowCollector {
+        var userName = Observable<String>()
+        var serverAddress = Observable<String>()
+        var serverPort = Observable<String>()
+        
+        override init() {}
+        
+        func emit(value: Any?, completionHandler: @escaping (KotlinUnit?, Error?) -> Void) {
+            print("flow data received!")
+            let serverDetails = value as! ServerInfo
+            self.userName.property = serverDetails.username ?? "ster"
+            self.serverAddress.property = serverDetails.serverIP ?? "10.0.0.62"
+            self.serverPort.property = String(describing: (serverDetails.serverPort ?? 4444))
+            
+            completionHandler(KotlinUnit(), nil)
+        }
     }
     
     init(getServerInfo: GetServerInfo, updateServerInfo: UpdateServerInfo, loginUser: LoginUser) {
@@ -35,22 +44,11 @@ final class SettingsPresenter: SettingsPresenting {
         self.updateServerInfo = updateServerInfo
         self.loginUser = loginUser
         
-//        guard let serverDetails = getServerInfo.invoke(param: KotlinUnit(), completionHandler: { (<#Kotlinx_coroutines_coreFlow?#>, error) in
-//
-//        }) else {
-//            self.userName = ""
-//            self.serverAddress = ""
-//            self.serverPort = ""
-//            return
-//        }
-        
-        self.userName = ""
-        self.serverAddress = ""
-        self.serverPort = ""
-    }
-    
-    func configureView() {
-    
+        getServerInfo.invoke(param: KotlinUnit(), completionHandler: { (coreFlow, error) in
+            coreFlow?.collect(collector: self.serverInfoCollector, completionHandler: { (kotlinUnit, error) in
+                print("completion")
+            })
+        })
     }
     
     func onGoClick(uName: String?, address: String?, port: String?) -> Bool {

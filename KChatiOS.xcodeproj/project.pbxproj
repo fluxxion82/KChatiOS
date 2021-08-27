@@ -25,6 +25,7 @@
 		DBDFDDF626D6EDC300E0D9E9 /* KChatComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDF526D6EDC300E0D9E9 /* KChatComponent.swift */; };
 		DBDFDDFA26D6F53C00E0D9E9 /* RemoteUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDF926D6F53C00E0D9E9 /* RemoteUserRepository.swift */; };
 		DBDFDDFC26D6F58E00E0D9E9 /* LocalUserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDFB26D6F58E00E0D9E9 /* LocalUserPreferences.swift */; };
+		DBDFDE0026D9AA0300E0D9E9 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFDDFF26D9AA0300E0D9E9 /* Observable.swift */; };
 		F634681E49B93296880A0C43 /* Pods_KChatiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4705FEE7527186B8BFB79F /* Pods_KChatiOSTests.framework */; };
 		FF8F8026EE7551072E992AE9 /* Pods_KChatiOS_KChatiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA710FC4151E4D1C041CE817 /* Pods_KChatiOS_KChatiOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,7 @@
 		DBDFDDF526D6EDC300E0D9E9 /* KChatComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KChatComponent.swift; sourceTree = "<group>"; };
 		DBDFDDF926D6F53C00E0D9E9 /* RemoteUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteUserRepository.swift; sourceTree = "<group>"; };
 		DBDFDDFB26D6F58E00E0D9E9 /* LocalUserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalUserPreferences.swift; sourceTree = "<group>"; };
+		DBDFDDFF26D9AA0300E0D9E9 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				DB2D49C026BBC05800913A5E /* Presenter.swift */,
 				DB2D49C626BBC2AE00913A5E /* BaseViewController.swift */,
+				DBDFDDFF26D9AA0300E0D9E9 /* Observable.swift */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDFDE0026D9AA0300E0D9E9 /* Observable.swift in Sources */,
 				DB90005226B5030C003923DA /* SettingsViewController.swift in Sources */,
 				DBDFDDFC26D6F58E00E0D9E9 /* LocalUserPreferences.swift in Sources */,
 				DB2D49C126BBC05800913A5E /* Presenter.swift in Sources */,

@@ -9,23 +9,23 @@
 /* Begin PBXAggregateTarget section */
 		9FA10608F377AE5B47F00969C58A08B0 /* domain */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 39B6E22FB26AE4F3C39E58BD7B23F092 /* Build configuration list for PBXAggregateTarget "domain" */;
+			buildConfigurationList = DFF25C836E50955ECB78200BED794889 /* Build configuration list for PBXAggregateTarget "domain" */;
 			buildPhases = (
-				68B07F24B1148D718B6E005B0D2A150A /* [CP-User] Build domain */,
+				915169FE302FBBFB43F17592E8361C4E /* [CP-User] Build domain */,
 			);
 			dependencies = (
-				FC5BA06A5BBFD117BE30614F34CE2426 /* PBXTargetDependency */,
+				81AF275BF06C4500B90B598DDD603908 /* PBXTargetDependency */,
 			);
 			name = domain;
 		};
 		E4B66F3EE337A5B89858810A9E68C631 /* multicore */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 866124010565B04888C3EEA07E35C293 /* Build configuration list for PBXAggregateTarget "multicore" */;
+			buildConfigurationList = 7C7D6284B53CA6CA31906713B13F7A86 /* Build configuration list for PBXAggregateTarget "multicore" */;
 			buildPhases = (
-				45F13A76AD7660CE6F9BBCB2A9BF3DDF /* [CP-User] Build multicore */,
+				F14ED8FE500E154A760CC4BC7D960852 /* [CP-User] Build multicore */,
 			);
 			dependencies = (
-				D82B58D598575A14024DB23A3188ADD3 /* PBXTargetDependency */,
+				915530250B27C0DF7A38390B2C7BE9A1 /* PBXTargetDependency */,
 			);
 			name = multicore;
 		};
@@ -158,13 +158,6 @@
 			remoteGlobalIDString = 9FA10608F377AE5B47F00969C58A08B0;
 			remoteInfo = domain;
 		};
-		5F46A71D4A309879446D0858A6AA5881 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
 		6C50E2CE7105844E8A5F7C1EDDA22B12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -172,19 +165,26 @@
 			remoteGlobalIDString = 9FA10608F377AE5B47F00969C58A08B0;
 			remoteInfo = domain;
 		};
-		70309D0224980D6DD799D6326068F39B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0E1198055FDB8511480E7672650A6C8;
-			remoteInfo = SwiftCoroutine;
-		};
 		9C9C0BFE0C1CB45F5E1165053D132079 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6C4240051401F8732FB18563849515B8;
 			remoteInfo = "Pods-KChatiOS";
+		};
+		A827738D5759C9A122CD0776FE0969B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E1198055FDB8511480E7672650A6C8;
+			remoteInfo = SwiftCoroutine;
+		};
+		C919F7AF30E55BECFEC3A3AED59E39FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
 		};
 		E641391873A5843F6E4EAF5A0DE14985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -988,17 +988,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45F13A76AD7660CE6F9BBCB2A9BF3DDF /* [CP-User] Build multicore */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Build multicore";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../../KChatAndroid/gradlew\" -p \"$REPO_ROOT\" :multicore:syncFramework                     -Pkotlin.native.cocoapods.target=$KOTLIN_TARGET                     -Pkotlin.native.cocoapods.configuration=$CONFIGURATION                     -Pkotlin.native.cocoapods.cflags=\"$OTHER_CFLAGS\"                     -Pkotlin.native.cocoapods.paths.headers=\"$HEADER_SEARCH_PATHS\"                     -Pkotlin.native.cocoapods.paths.frameworks=\"$FRAMEWORK_SEARCH_PATHS\"\n";
-		};
-		68B07F24B1148D718B6E005B0D2A150A /* [CP-User] Build domain */ = {
+		915169FE302FBBFB43F17592E8361C4E /* [CP-User] Build domain */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1006,7 +996,17 @@
 			name = "[CP-User] Build domain";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../../KChatAndroid/gradlew\" -p \"$REPO_ROOT\" :domain:syncFramework                     -Pkotlin.native.cocoapods.target=$KOTLIN_TARGET                     -Pkotlin.native.cocoapods.configuration=$CONFIGURATION                     -Pkotlin.native.cocoapods.cflags=\"$OTHER_CFLAGS\"                     -Pkotlin.native.cocoapods.paths.headers=\"$HEADER_SEARCH_PATHS\"                     -Pkotlin.native.cocoapods.paths.frameworks=\"$FRAMEWORK_SEARCH_PATHS\"\n";
+			shellScript = "                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" :domain:syncFramework                     -Pkotlin.native.cocoapods.target=$KOTLIN_TARGET                     -Pkotlin.native.cocoapods.configuration=$CONFIGURATION                     -Pkotlin.native.cocoapods.cflags=\"$OTHER_CFLAGS\"                     -Pkotlin.native.cocoapods.paths.headers=\"$HEADER_SEARCH_PATHS\"                     -Pkotlin.native.cocoapods.paths.frameworks=\"$FRAMEWORK_SEARCH_PATHS\"\n";
+		};
+		F14ED8FE500E154A760CC4BC7D960852 /* [CP-User] Build multicore */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build multicore";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" :multicore:syncFramework                     -Pkotlin.native.cocoapods.target=$KOTLIN_TARGET                     -Pkotlin.native.cocoapods.configuration=$CONFIGURATION                     -Pkotlin.native.cocoapods.cflags=\"$OTHER_CFLAGS\"                     -Pkotlin.native.cocoapods.paths.headers=\"$HEADER_SEARCH_PATHS\"                     -Pkotlin.native.cocoapods.paths.frameworks=\"$FRAMEWORK_SEARCH_PATHS\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1150,6 +1150,18 @@
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = F430D847F62DB6B1B4A99ED368908B5A /* PBXContainerItemProxy */;
 		};
+		81AF275BF06C4500B90B598DDD603908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCoroutine;
+			target = F0E1198055FDB8511480E7672650A6C8 /* SwiftCoroutine */;
+			targetProxy = A827738D5759C9A122CD0776FE0969B3 /* PBXContainerItemProxy */;
+		};
+		915530250B27C0DF7A38390B2C7BE9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = C919F7AF30E55BECFEC3A3AED59E39FB /* PBXContainerItemProxy */;
+		};
 		ACC40D64F66AE245C0F6177DD4C1EE7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftCoroutine;
@@ -1167,18 +1179,6 @@
 			name = multicore;
 			target = E4B66F3EE337A5B89858810A9E68C631 /* multicore */;
 			targetProxy = 2CAC13897D205CEE7349CC78D0BD2B47 /* PBXContainerItemProxy */;
-		};
-		D82B58D598575A14024DB23A3188ADD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 5F46A71D4A309879446D0858A6AA5881 /* PBXContainerItemProxy */;
-		};
-		FC5BA06A5BBFD117BE30614F34CE2426 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftCoroutine;
-			target = F0E1198055FDB8511480E7672650A6C8 /* SwiftCoroutine */;
-			targetProxy = 70309D0224980D6DD799D6326068F39B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1294,23 +1294,6 @@
 			};
 			name = Debug;
 		};
-		18976303F0113AE9EA0994EA6AE547DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCCEFC8351C8DA64DD6DBEA78A049FA /* domain.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		25D313078B9BEDD44B7F0D71FBEB9244 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACB70B15DCE6CEB7E56ED8205DAE3116 /* Pods-KChatiOSTests.debug.xcconfig */;
@@ -1386,6 +1369,24 @@
 			};
 			name = Release;
 		};
+		412835AC477E26458A0EBF903CB36125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A395DF806D99AC451B37D67EBEE2FE95 /* domain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		4927FDBF6F05C78BFA61ADD136449470 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7912855CED9606B1181DF004BE613DFD /* SwiftCoroutine.debug.xcconfig */;
@@ -1418,6 +1419,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F71D2D811F8CD7D4DADAEEDD024CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCCEFC8351C8DA64DD6DBEA78A049FA /* domain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1555,7 +1573,7 @@
 			};
 			name = Release;
 		};
-		CCC9EBE7C1C5C6EA934D2FCF345E88E6 /* Release */ = {
+		B94B9EE990CD0F911550B3560799E5D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C4C6A1780C43951F0A3B8C2DB669AA5 /* multicore.release.xcconfig */;
 			buildSettings = {
@@ -1605,24 +1623,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E82F7010FE387CD0E89DFDC360D4677A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A395DF806D99AC451B37D67EBEE2FE95 /* domain.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1692,7 +1692,7 @@
 			};
 			name = Debug;
 		};
-		ED552F648BA6DD33D8D916E68AE89389 /* Debug */ = {
+		F18B8C7CF875EBC00DD408E4CF55CB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA8E1A08762AEA93762695CB1DFEA0FD /* multicore.debug.xcconfig */;
 			buildSettings = {
@@ -1749,15 +1749,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39B6E22FB26AE4F3C39E58BD7B23F092 /* Build configuration list for PBXAggregateTarget "domain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18976303F0113AE9EA0994EA6AE547DF /* Debug */,
-				E82F7010FE387CD0E89DFDC360D4677A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1767,11 +1758,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		866124010565B04888C3EEA07E35C293 /* Build configuration list for PBXAggregateTarget "multicore" */ = {
+		7C7D6284B53CA6CA31906713B13F7A86 /* Build configuration list for PBXAggregateTarget "multicore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED552F648BA6DD33D8D916E68AE89389 /* Debug */,
-				CCC9EBE7C1C5C6EA934D2FCF345E88E6 /* Release */,
+				F18B8C7CF875EBC00DD408E4CF55CB24 /* Debug */,
+				B94B9EE990CD0F911550B3560799E5D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1808,6 +1799,15 @@
 			buildConfigurations = (
 				69E2BE386CED50B1EDF317D8CA89A920 /* Debug */,
 				DDE58AA6A9B143E318A590151C533A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF25C836E50955ECB78200BED794889 /* Build configuration list for PBXAggregateTarget "domain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F71D2D811F8CD7D4DADAEEDD024CD85 /* Debug */,
+				412835AC477E26458A0EBF903CB36125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

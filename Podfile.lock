@@ -37,8 +37,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  domain: e981a4d71c52c9ccf3bdbdeec812cf0bdbedc9a3
-  multicore: f6dd626e9c39eb5d443a3aeab8d4857bef4c9eb5
+  domain: 5c98027639aeba50a293068d1f92fbe4e65355fd
+  multicore: 6c9da4d6bf14470b4d4b5eb0133050b4cf27ac82
   SwiftCoroutine: 94a9d02aae382d4f0549a191d5ba5c01dfe752a5
 
 PODFILE CHECKSUM: 8a7017710c543a2c4a33681a10bf3ca052c501ab

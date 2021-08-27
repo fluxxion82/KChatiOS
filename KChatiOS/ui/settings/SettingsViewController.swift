@@ -39,6 +39,21 @@ class ViewController: BaseViewController, SettingsViewInterface {
         
         self.userNameLabel.text = GetSampleFooKt.goodbye()
 
+        // need to observe data
+        _presenter.serverInfoCollector.userName.observe = { value in
+            print("username: \(value)")
+            self.userNameInput.insertText(value)
+        }
+        
+        _presenter.serverInfoCollector.serverAddress.observe = { value in
+            print("addy: \(value)")
+            self.serverIpInput.insertText(value)
+        }
+        
+        _presenter.serverInfoCollector.serverPort.observe = { value in
+            print("port: \(value)")
+            self.serverPortInput.insertText(value)
+        }
     }
     
     @IBAction func onClick(_ sender: UIButton, forEvent event: UIEvent) {

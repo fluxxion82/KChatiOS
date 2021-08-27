@@ -15,7 +15,8 @@ class LocalUserPreferences : UserPreferences {
     }
     
     func getServerInfo(completionHandler: @escaping (ServerInfo?, Error?) -> Void) {
-        
+        let serverInfo = ServerInfo(username: "", serverIP: "", serverPort: 4444)
+        completionHandler(serverInfo, nil)
     }
     
     func upsert(serverInfo: ServerInfo, completionHandler: @escaping (KotlinUnit?, Error?) -> Void) {
